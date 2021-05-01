@@ -2,26 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Com.Baran.ProjectHermes
+public class Motion : MonoBehaviour
 {
-
-    public class NewBehaviourScript : MonoBehaviour
+    // Start is called before the first frame update
+    void Start()
     {
+        
+    }
 
-        public float speed;
-        private Rigibody rig;
-        fl
-
-        private void Start()
-        {
-            rig = GetComponent<Rigibody>();
-        }
-
-        // Update is called once per frame
-        void FixedUpdate()
-        {
-            float tempVMove = Input.Get;
-            float tempHMove;
-        }
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
