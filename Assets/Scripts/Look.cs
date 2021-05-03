@@ -61,6 +61,7 @@ namespace Com.BaranKazan.ProjectHermes
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     cursorLocked = false;
+                    Time.timeScale = 0;
                 }
             }
             else
@@ -70,6 +71,7 @@ namespace Com.BaranKazan.ProjectHermes
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     cursorLocked = true;
+                    Time.timeScale = 1;
                 }
             }
         }
